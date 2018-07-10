@@ -1,0 +1,37 @@
+<?php
+    header("Content-Type:text/html; charset=UTF-8");
+    header("Access-Control-Allow-Origin:*");
+    echo'[
+        {"logoSrc":"../../static/img/logo/logo1.jpg","shopContainer":
+        [
+            {"id":1,"title":"全家的年夜饭","price":128,"delPrice":208,"src":"../../static/img/shop/gift/01.jpg"},
+            {"id":2,"title":"外婆的灶台","price":198,"delPrice":323,"src":"../../static/img/shop/gift/02.jpg"},
+            {"id":3,"title":"小伙伴的鞭炮","price":218,"delPrice":238,"src":"../../static/img/shop/gift/03.jpg"},
+            {"id":4,"title":"茶几上的春节","price":198,"delPrice":268,"src":"../../static/img/shop/gift/04.jpg"},
+            {"id":5,"title":"长辈的压岁钱","price":138,"delPrice":258,"src":"../../static/img/shop/gift/05.jpg"},
+            {"id":6,"title":"旺德福","price":168,"delPrice":357,"src":"../../static/img/shop/gift/06.jpg"}
+           ]
+        },
+        {"logoSrc":"../../static/img/logo/logo2.jpg","shopContainer":
+            [
+                {"id":7,"title":"夏威夷果","price":128,"delPrice":208,"src":"../../static/img/shop/gift/03.jpg"},
+                {"id":8,"title":"松子","price":128,"delPrice":208,"src":"../../static/img/shop/gift/02.jpg"},
+                {"id":9,"title":"栗子","price":198,"delPrice":323,"src":"../../static/img/shop/gift/01.jpg"},
+                {"id":10,"title":"核桃","price":218,"delPrice":238,"src":"../../static/img/shop/gift/03.jpg"},
+                {"id":11,"title":"油麻","price":198,"delPrice":268,"src":"../../static/img/shop/gift/06.jpg"},
+                {"id":12,"title":"开心果","price":138,"delPrice":258,"src":"../../static/img/shop/gift/05.jpg"}
+               ]
+            },
+        {"logoSrc":"../../static/img/logo/logo3.jpg","shopContainer":
+            [
+                {"id":13,"title":"柠檬片","price":128,"delPrice":208,"src":"../../static/img/shop/shops/01.jpg"},
+                {"id":14,"title":"菠萝蜜干","price":198,"delPrice":323,"src":"../../static/img/shop/shops/02.jpg"},
+                {"id":15,"title":"芒果干","price":218,"delPrice":238,"src":"../../static/img/shop/shops/03.jpg"},
+                {"id":16,"title":"茶几上的春节","price":198,"delPrice":268,"src":"../../static/img/shop/shops/04.jpg"},
+                {"id":17,"title":"鸡爪","price":138,"delPrice":258,"src":"../../static/img/shop/shops/05.jpg"},
+                {"id":18,"title":"山楂片","price":168,"delPrice":357,"src":"../../static/img/shop/shops/06.jpg"}
+                ]
+            }
+    ]';
+?>
+
