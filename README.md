@@ -1,11 +1,11 @@
 # bcw
-<br>
->php<br>
-bcw数据源<br>
->app<br>
-项目入口文件<br>
 
-> baicaoweiSPA
+```
+1. php<br>
+bcw数据源<br>
+2. app<br>
+项目入口文件<br>
+```
 
 ## Build Setup
 
